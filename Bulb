@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="document.getElementById('myImage').src='bulb_on.jpg'" style="background-color: lime">ON</button>
+
+<img id="myImage" src="bulb_off.jpg" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='bulb_off.jpg'" style="background-color: red">OFF</button>
+
+
+</body>
+</html> 
+
+<style>
+    body{
+        background-color: slategray
+    }
+</style>
+
